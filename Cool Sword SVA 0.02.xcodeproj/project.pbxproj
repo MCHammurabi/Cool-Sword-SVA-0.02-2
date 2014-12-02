@@ -13,6 +13,8 @@
 		E85E5C011A2B4F2D0070D742 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85E5C001A2B4F2D0070D742 /* Images.xcassets */; };
 		E85E5C041A2B4F2D0070D742 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85E5C021A2B4F2D0070D742 /* LaunchScreen.xib */; };
 		E85E5C101A2B4F2D0070D742 /* Cool_Sword_SVA_0_02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85E5C0F1A2B4F2D0070D742 /* Cool_Sword_SVA_0_02Tests.swift */; };
+		E85E5C1A1A2B4F630070D742 /* DiceRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85E5C191A2B4F630070D742 /* DiceRoller.swift */; };
+		E85E5C1C1A2BC0640070D742 /* BattleClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85E5C1B1A2BC0640070D742 /* BattleClasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E85E5C091A2B4F2D0070D742 /* Cool Sword SVA 0.02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cool Sword SVA 0.02Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85E5C0E1A2B4F2D0070D742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85E5C0F1A2B4F2D0070D742 /* Cool_Sword_SVA_0_02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cool_Sword_SVA_0_02Tests.swift; sourceTree = "<group>"; };
+		E85E5C191A2B4F630070D742 /* DiceRoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiceRoller.swift; sourceTree = "<group>"; };
+		E85E5C1B1A2BC0640070D742 /* BattleClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BattleClasses.swift; path = ../BattleClasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				E85E5BF91A2B4F2D0070D742 /* AppDelegate.swift */,
-				E85E5BFB1A2B4F2D0070D742 /* ViewController.swift */,
 				E85E5BFD1A2B4F2D0070D742 /* Main.storyboard */,
+				E85E5BFB1A2B4F2D0070D742 /* ViewController.swift */,
 				E85E5C001A2B4F2D0070D742 /* Images.xcassets */,
 				E85E5C021A2B4F2D0070D742 /* LaunchScreen.xib */,
 				E85E5BF71A2B4F2D0070D742 /* Supporting Files */,
@@ -90,6 +94,8 @@
 		E85E5BF71A2B4F2D0070D742 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E85E5C1B1A2BC0640070D742 /* BattleClasses.swift */,
+				E85E5C191A2B4F630070D742 /* DiceRoller.swift */,
 				E85E5BF81A2B4F2D0070D742 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85E5C1C1A2BC0640070D742 /* BattleClasses.swift in Sources */,
 				E85E5BFC1A2B4F2D0070D742 /* ViewController.swift in Sources */,
 				E85E5BFA1A2B4F2D0070D742 /* AppDelegate.swift in Sources */,
+				E85E5C1A1A2B4F630070D742 /* DiceRoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
